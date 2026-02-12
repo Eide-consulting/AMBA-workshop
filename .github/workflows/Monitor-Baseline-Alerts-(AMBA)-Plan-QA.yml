@@ -42,7 +42,7 @@ jobs:
         shell: bash
         run: |
           az deployment mg what-if \
-            --template-uri https://raw.githubusercontent.com/Azure/azure-monitor-baseline-alerts/${{ env.AMBA_VERSION }}/patterns/alz/alzArm.json \
+            --template-uri https://raw.githubusercontent.com/Eide-consulting/azure-monitor-baseline-alerts/main/patterns/alz/alzArm.json \
             --location ${{ env.Location }} \
             --management-group-id ${{ env.ManagementGroupPrefix }} \
             --parameters ./patterns/alz/alzArm.param.json managementSubscriptionId=${{ env.ARM_SUBSCRIPTION_ID }} | tee amba-what-if-output.txt
