@@ -97,7 +97,7 @@
       ]
     },
     "ALZMonitorActionGroupEmail": {
-      "value": ["arnfinn@arnfinneide.no"]
+      "value": ["email@yourdomain.com"]
     },
     "ALZLogicappResourceId": {
       "value": ""
